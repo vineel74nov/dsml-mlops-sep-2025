@@ -1,5 +1,5 @@
 # MLOps Best Coding Practices
-Adding some random sentence from the V1 branch.
+Adding some random sentence from the V2 branch.
 
 ## Version Control
 - Use Git for code, data, and model versioning

@@ -1,4 +1,4 @@
-# MLOps Best Coding Practices - Adding small changes from V2 branch
+# MLOps Best Coding Practices - Adding things from v1
 Adding some random sentence from the V2 branch.
 
 ## Version Control

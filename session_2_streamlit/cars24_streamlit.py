@@ -63,11 +63,11 @@ def model_pred(
 
 	prediction = model.predict(data)
 
-	return round(prediction[0], 2)
+	#return round(prediction[0], 2)
      
 	#st.write(f"**prediction: {prediction[0][0]}**")
      
-	#return round(prediction[0][0], 2)
+	return round(prediction[0][0], 2)
 
 
 

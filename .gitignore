@@ -1,0 +1,5 @@
+# **/* is a wildcard that matches any file or directory at any level
+**/*.DS_Store 
+**/*.csv
+**/*.cfg
+

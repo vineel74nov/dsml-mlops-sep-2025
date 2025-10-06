@@ -1,9 +1,6 @@
 https://chat.whatsapp.com/CgNgYE1BbY7LoWTrhzlvra
 
 # Session - 2: Streamlit
-https://chat.whatsapp.com/CgNgYE1BbY7LoWTrhzlvra
-
-# Session - 2: Streamlit
 
 ## Command History
 

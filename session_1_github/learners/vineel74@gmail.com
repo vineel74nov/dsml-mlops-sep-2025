@@ -1,0 +1,1 @@
+This is MLOps First session exercise.  

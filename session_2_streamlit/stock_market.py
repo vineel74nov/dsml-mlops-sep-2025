@@ -1,16 +1,29 @@
 import streamlit as st
 import pandas as pd
-import yfinance as yf
 import numpy as np
 
+#pip install yfinance
+
+import yfinance as yf
+from curl_cffi import requests
+session = requests.Session(impersonate="chrome")
 
 
 
-st.title("Stock Market Analysis!!")
+st.title('Stock Market Data Analysis')
 
-ticker_symbol = 'AAPL'
+# Header
+#st.header("This is a header")
+ 
+## Subheader
+#st.subheader("This is a subheader")
 
-ticker_data = yf.Ticker(ticker_symbol)
+#st.write("# Welcome to Streamlit! 👋")
+
+#ticker_symbol = 'AAPL'  # Default ticker symbol
+ticker_symbol = st.text_input("Please enter Ticker Symbol", 'AAPL')
+
+ticker_data = yf.Ticker(ticker_symbol, session=session)
 
 import datetime
 

@@ -16,4 +16,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /flask-loan-app
 
 # Make port 8000 available to the world outside this container
-CMD ["python", "-m", "flask", "--app", "hello.py", "run", "--host=0.0.0.0", "--port=8000"]
+CMD ["python", "-m", "flask", "--app", "hello.py", "run", "--host=0.0.0.0", "--port=9000"]
+
+#Commands that can change should be kept in the bottom of a Docker file.
+
+#docker run -p 9000:8000 oct8
+# first 9000 is host port and second 8000 is container port

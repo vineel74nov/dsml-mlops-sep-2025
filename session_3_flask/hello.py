@@ -7,7 +7,7 @@ from flask import Flask, request
 
 pancakes = Flask(__name__)
 
-print("This is __name__:", __name__)
+print(";) This is  __name__:", __name__)
 
 #@pancakes.route('/')
 #def index(): # name here doesn't matter, it is the route that matters, name can be anything

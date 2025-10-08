@@ -71,10 +71,4 @@ docker login
 docker push shivam13juna/docker_oct8:latest
 ```
 
----
 
-### Notes & small gotchas noticed
-
-* `docker image ls head` → likely a typo. Use `docker image ls | head`.
-* Bare `docker image` just shows help; probably unintentional.
-* You alternated between ports 8000 and 9000 on the host; final choice seemed to be **9000 → 8000**. Keep it consistent with `-p 9000:8000`.

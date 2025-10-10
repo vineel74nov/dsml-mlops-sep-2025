@@ -61,8 +61,8 @@ def index():
 </head>
 <body>
   <div class="content">
-	<div class="title">Welcome to Flask Session!</div>
-	<div class="subtitle">Let's learn how to send POST request to our application.</div>
+	<div class="title">Welcome to AWS ECS Session!</div>
+	<div class="subtitle">Let's learn how to deploy on AWS ECS.</div>
   </div>
 </body>
 </html>

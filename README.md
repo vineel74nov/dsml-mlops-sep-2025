@@ -71,4 +71,22 @@ docker login
 docker push shivam13juna/docker_oct8:latest
 ```
 
+ 
+# Session - 5: AWS and ECS
 
+## Terminal commands i'm using in class:
+
+1. docker build --platform=linux/amd64 -t ecs-flask-oct10 .
+2. aws configure
+3. docker tag ecs-flask-oct10:latest 061039785799.dkr.ecr.ap-southeast-2.amazonaws.com/ecs-flask-container-v2:latest
+
+
+curl --location 'http://13.239.113.54:9000/predict' \
+--header 'Content-Type: application/json' \
+--data '{   "Gender": "Male",
+   "Married": "Unmarried",
+   "Credit_History": "Cleared Debts",
+   "ApplicantIncome": 50000, 
+   "LoanAmount": 5
+   
+   }'

@@ -1,31 +1,35 @@
-# "yaml" is short for "Yet Another Markup Language"
+# yaml stands for "YAML Ain't Markup Language", Yet Another Markup Language
+name: CI Pipeline
 
-name: CI # Name of the workflow
+
 
 on:
-	push:
-		branches:
-			- main # Trigger the workflow on pushes to the main branch
-			- any_feature_branch # Trigger the workflow on pushes to any_feature_branch
+  push:
+    branches:
+        - main
+        - any-feature-branch
+
+
 
 jobs:
-	job1:
-		runs-on: ubuntu-latest # Use the latest Ubuntu runner
-		
-		steps:
-			- name: Checkout code # Step to check out the repository code
-				uses: actions/checkout@v5
+    
+    job1:
+        runs-on: ubuntu-latest # can even have macos-latest or windows-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4  # v4 is the version of the action we're using, not the branch of the code; https://github.com/actions/checkout 
+        # purpose of checkout code is to get the code from the repository, and put it in the runner machine
+        
+            - name: Set up Python
+              uses: actions/setup-python@v5  # v4 is the version of the action we're using, not the branch of the code;
+              with:
+                python-version: '3.10'  # Specify the Python version you want to use
 
-			- name: Set up Python 3.10 # Step to set up Python 3.10
-				uses: actions/setup-python@v6
-				with:
-					python-version: 3.10
-
-			- name: Install dependencies # Step to install dependencies
-				run: |
-					python -m pip install --upgrade pip
-					pip install -r session_6_CI/requirements.txt
-			
-			- name: Run tests # Step to run tests
-				run: |
-					pytest
+            - name: Install dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install -r session_6_CI/requirements.txt  # Install dependencies from requirements.txt
+            
+            - name: Run tests
+              run: |
+                    pytest

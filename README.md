@@ -90,3 +90,6 @@ curl --location 'http://13.239.113.54:9000/predict' \
    "LoanAmount": 5
    
    }'
+
+
+   sudo usermod -aG docker $USER

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/sep_2025/dsml-mlops-sep-2025/session_9_mlflow/mlruns/968527100310716961/49f26c423563408cb2cf3e1749b46041/artifacts
+end_time: 1760667771382
+entry_point_name: ''
+experiment_id: '968527100310716961'
+lifecycle_stage: active
+run_id: 49f26c423563408cb2cf3e1749b46041
+run_name: peaceful-grub-528
+run_uuid: 49f26c423563408cb2cf3e1749b46041
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760667770410
+status: 3
+tags: []
+user_id: shivam13juna

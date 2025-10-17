@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/sep_2025/dsml-mlops-sep-2025/session_9_mlflow/mlruns/968527100310716961/8efd8d1188df4b5098af37c903712455/artifacts
+end_time: 1760667181543
+entry_point_name: ''
+experiment_id: '968527100310716961'
+lifecycle_stage: active
+run_id: 8efd8d1188df4b5098af37c903712455
+run_name: defiant-gull-255
+run_uuid: 8efd8d1188df4b5098af37c903712455
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760667180960
+status: 3
+tags: []
+user_id: shivam13juna

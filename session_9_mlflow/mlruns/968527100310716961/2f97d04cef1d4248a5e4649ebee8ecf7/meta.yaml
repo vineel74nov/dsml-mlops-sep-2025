@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shivam13juna/Documents/scaler/mlops/sep_2025/dsml-mlops-sep-2025/session_9_mlflow/mlruns/968527100310716961/2f97d04cef1d4248a5e4649ebee8ecf7/artifacts
+end_time: 1760667739500
+entry_point_name: ''
+experiment_id: '968527100310716961'
+lifecycle_stage: active
+run_id: 2f97d04cef1d4248a5e4649ebee8ecf7
+run_name: abrasive-smelt-428
+run_uuid: 2f97d04cef1d4248a5e4649ebee8ecf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760667738912
+status: 3
+tags: []
+user_id: shivam13juna
